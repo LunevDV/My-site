@@ -14,37 +14,63 @@
         <a class="header-phone" href="tel:+79654267633">+7 965 426 76 33</a>
       </div>
     </header>
-
+    <nav>
+      <ul class="main-menu">
+        <li><a href="#aboutMe">Обо мне</a></li>
+        <li><a href="#myJob">Мои работы</a></li>
+        <li><a href="#blog">Блог верстальщика</a></li>
+      </ul> 
+    </nav>
     <section class="hero-image">
       <div class="container">
         <h1 class="heading">Лунев Даниил</h1>
         <p>Junior верстальщик</p>
       </div>
     </section>
-
     <section class="intro">
       <div class="container">
         <h2 class="subheading">Давайте познакомимся</h2>
         <figure class="user-image">
           <img src="files/user.jpg" width="928" height="536" alt="Фотография Лунева Даниила">
         </figure>
-        <h3>Пара слов о себе</h3>
-        <p>За плечами колледж и заочка в ВУЗе по специальностям связанным с программированием и в целом с IT. А также знания по веб-разработке, полученные на просторах интернета, включая HTML-academy.</p>
-        <h3>Чем могу быть полезен</h3>
-        <p>Уже есть знания по алгоритмизации в целом, а в веб-разработке что-то знаю из HTML и CSS. Пожалуй смогу сверстать простую страничку или несколько.</p>
+        <div id="aboutMe">
+          <h3>Пара слов о себе</h3>
+          <p>За плечами колледж и заочка в ВУЗе по специальностям связанным с программированием и в целом с IT. А также знания по веб-разработке, полученные на просторах интернета, включая HTML-academy.</p>
+        </div>
+        <div>
+          <h3>Чем могу быть полезен</h3>
+          <ul>
+            <li>Сверстаю web-страницу</li>
+            <li>Сделаю красивое оформление на CSS</li>
+            <li>Добавлю меню</li>
+          </ul>
+        </div>
+        <div class="skills">
+          <h3>Мои навыки</h3>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level">
+              <div style="width: 60%;">60%</div>
+            </dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level">
+              <div style="width: 40%">40%</div>
+            </dd>
+          </dl>
+        </div>
       </div>
     </section>
 
     <section class="portfolio">
       <div class="container">
-        <h2 class="subheading">Мои работы</h2>
+        <h2 class="subheading" id="myJob">Мои работы</h2>
         <figure class="progect-image">
           <img src="files/project.jpg" width="928" height="536" alt="Сайт инструктора Кекса">
         </figure>
         <h3>Сайт инструктора Кекса</h3>
         <p>Небольшой лендинг о школе для начинающих.</p>
 
-        <h3>Блог начинающего верстальщика</h3>
+        <h3 id="blog">Блог начинающего верстальщика</h3>
         <p>Статический блог про обучение HTML и CSS.</p>
         <a class="button" href="source/project/index.html">Открыть страницу</a>
       </div>
